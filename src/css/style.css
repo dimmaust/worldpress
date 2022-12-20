@@ -4,6 +4,11 @@
     padding: 0;
 }
 
+
+html {
+    font-family: 'Roboto', 'Roboto Condensed', sans-serif;
+}
+
 .container {
     position: relative;
     width: 1140px;
@@ -38,7 +43,7 @@ h1 {
 
 .title {
     font-size: 41px;
-    font-weight: 400;
+    font-weight: 300;
     /* line-height: 24px; */
     font-family: "Roboto";
     color: rgb(249, 191, 59);
@@ -51,9 +56,8 @@ h2.title {
 
 .simple .title_big {
     color: rgb(255, 255, 255);
-    font-family: "Roboto - Black";
     font-size: 80px;
-    font-weight: 400;
+    font-weight: 900;
     text-transform: uppercase;
     text-align: center;
     margin-top: 21px;
@@ -66,14 +70,13 @@ h2.title {
     font-size: 21px;
     font-weight: 300;
     line-height: 28px;
-    font-family: "Roboto Light";
     font-weight: 300;
     text-align: center;
 }
 
 .promo .promo_text span {
     color: #f9bf3b;
-    font-family: "Roboto - Bold";
+    
     font-weight: 700;
 }
 
@@ -87,9 +90,10 @@ h2.title {
     border: 4px solid rgba(0, 0, 0, 0.23);
     background-image: linear-gradient(to top, #2798b9, #3ab6da 100%);
     text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.22);
-    color: #ffffff
+    color: #ffffff;    
     font-family: "Roboto Condensed";
-    font-size: 15px;
+    font-size: 24px;
+    font-family: 'Roboto';
     font-weight: 400;
     line-height: 24px;
     text-transform: uppercase;
